@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="新增工作"
+        android:textSize="12pt" />
+
+    <EditText
+        android:id="@+id/tvConditionValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="工作名稱"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/tvClass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="工作分類"
+        android:textSize="12pt" />
+
+    <Spinner
+        android:id="@+id/spClass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/tvCust"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="對象客戶"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/btnCust"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="設定客戶"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="執行日期"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="設定日期"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="設定時間"
+        android:textSize="12pt" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提醒"
+        android:textSize="12pt" />
+
+    <EditText
+        android:id="@+id/tvInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="輸入內容"
+        android:textSize="12pt" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="確定"
+            android:textSize="12pt" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textSize="12pt" />
+    </LinearLayout>
+
+</LinearLayout>
